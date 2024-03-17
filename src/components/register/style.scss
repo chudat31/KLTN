@@ -1,0 +1,95 @@
+.register {
+    height: 100vh;
+    img {
+      position: relative;
+    }
+    .register_block {
+      border: none;
+      position: absolute;
+      bottom: 40%;
+      left: 60%;
+      width: 30%;
+      height: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      h4 {
+        width: 100%;
+        border-bottom: 2px solid rgb(201, 201, 201);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: white;
+      }
+      form {
+        width: 100%;
+        border: 0px rgba(254, 231, 231, 0.896);
+        div {
+          position: relative;
+        }
+        input {
+          height: 60%;
+          border: none;
+          background: none;
+          outline: none;
+          padding: 9px;
+          margin: 9px;
+          font-weight: 700;
+        }
+        input:focus {
+          background: none;
+          outline: none;
+          border: none;
+        }
+        input:valid {
+          background: none;
+          outline: none;
+          border: none;
+        }
+        input:focus ~ label{
+          top: -8px;
+        }
+        input:valid ~ label{
+          top: -8px;
+        }
+        span::before{
+          content: '';
+          position: absolute;
+          top: 40px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: #2691d9;
+        }
+        label {
+          width: 100%;
+          position: absolute;
+          top: 20%;
+          left: 15px;
+          color: white;
+          pointer-events: none;
+          transition: ease-in-out 0.5s;
+        }
+        button {
+          width: 100%;
+        }
+        h5 {
+          text-align: center;
+          margin-bottom: 15px;
+          color: white;
+          a {
+              color: black;
+          }
+        }
+      }
+    }
+    img {
+      filter: brightness(50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  

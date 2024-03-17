@@ -1,0 +1,49 @@
+.background {
+  background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/305642544/original/e20c18ceaf02d4c0f274bc0b47ac62148921a642/translate-english-to-french-and-also-in-hindi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.AppBar {
+  background-color: rgba(255, 255, 255, 0.8)!important;
+  color: #333!important;
+}
+
+.Paper {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.TextField {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.Button {
+  margin-top: 20px;
+  background-color: #1976d2;
+  color: #fff;
+  &:hover {
+    background-color: #115293;
+  }
+}
+
+.InputFile {
+  display: none;
+}
+
+.FormControl, .Select, .MenuItem, .InputLabel, .FormHelperText {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.CircularProgress {
+  color: #1976d2;
+}
